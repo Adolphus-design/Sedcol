@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prog';
+
+  afuConfig = {
+    uploadAPI: {
+      url:"https://example-file-upload-api"
+    }
+};
+
 }
